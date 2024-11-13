@@ -1,7 +1,3 @@
----
-geometry: margin=1in, a4paper
----
-
 # Énoncé du projet de Web2 2024-2025
 
 Vous allez réaliser un projet de gestion de livraison pour une entreprise de transport nommée **FastDeliver** dont voici les spécifications.
@@ -114,12 +110,3 @@ Si vous codez 50% des fonctionnalités mais que la qualité de votre code est pa
 - Si vous n’obtenez pas au moins 10/20 au Q1, vous pouvez repasser l’examen au Q3. Celui-ci sera basé sur les mêmes modalités qu’au Q1.
 - Votre projet doit être remis au plus tard la veille de l'examen de Q3, toujours sur le git qui vous a été assigné. Si vous n'êtes plus dans le même groupe, vous pouvez me demander de vous assigner un nouveau git.
 - Pour rappel et tout comme au Q1, si vous n’obtenez pas au moins 8/20 à l'examen, la note est dite absorbante et devient la note de l'UE, indépendamment de la note obtenu pour le projet en tant que tel.
-
-<style>
-table {
-    border-collapse: collapse;
-}
-table, th, td {
-  border: 1px solid black;
-}
-</style>
