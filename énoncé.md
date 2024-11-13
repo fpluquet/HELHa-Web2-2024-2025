@@ -14,7 +14,7 @@ Le projet **FastDeliver** est une application web de gestion de livraison qui pe
 
 Un administrateur pourra gérer les livraisons (et éditer les informations du client liées à cette livraison). Les livreurs pourront consulter les livraisons qui leur sont attribuées, éditer le status (la marquer comme livrée ou signaler les problèmes éventuels). Les clients uniquement pourront suivre l'état de leur colis en entrant un numéro de suivi.
 
-Les utilisateurs sont hardcodés (il n'y a pas de gestion d'utilisateurs dans l'applicaiton) et les mots de passe sont stockés en hashé dans la base de données. Voici les utilisateurs disponibles :
+Les utilisateurs sont hardcodés (il n'y a pas de gestion d'utilisateurs dans l'application) et les mots de passe sont stockés sous forme hashée (avec du sel) dans la base de données (faites un script JS côté serveur qui crée les utilisateurs dans la base de données). Voici les utilisateurs disponibles :
 
 | Nom         | Email                  | Mot de passe | Rôle          |
 |-------------|------------------------|--------------|---------------|
@@ -42,6 +42,9 @@ Une démonstration de l'application est disponible ici : [https://youtu.be/myXpq
 - **Compréhension du code :** Vous devez être capable d'expliquer votre code et de justifier vos choix de conception. Vous pouvez être interrogé sur les technologies utilisées, les librairies, les méthodes de développement, etc.
 - **TypeScript et Sass :** Vous pouvez utiliser TypeScript pour améliorer la qualité de votre code et éviter les erreurs courantes. Cependant, cela n'est pas obligatoire. Idem pour Sass, qui peut vous aider à structurer votre CSS de manière plus efficace.
 - **Gestion des erreurs :** Votre application doit gérer les erreurs de manière élégante et informative pour l'utilisateur. Les messages d'erreur doivent être clairs et précis, sans révéler d'informations sensibles. Vous ne pouvez pas ne pas gérer les erreurs (par exemple, en laissant des pages blanches ou des messages d'erreur uniquement dans la console).
+- **Git :** Vous devez utiliser Git pour gérer votre code source. Chaque membre du groupe doit contribuer au projet et les commits doivent être clairs et bien documentés. Vous devez utiliser des branches pour travailler sur des fonctionnalités spécifiques et fusionner vos modifications de manière cohérente. Si il y a un doute sur la quantité de travail fourni par chaque membre du groupe, les commits et les branches seront examinés pour évaluer la contribution de chacun. Vieillez donc à bien commiter avec vos propres identifiants.
+- **package.json :** Vous devez fournir un fichier `package.json` avec les dépendances nécessaires pour exécuter votre application. Vous devez également fournir un script `start` pour lancer votre application et un script `init` pour initialiser la base de données avec des données des utilisateurs.
+- **README.md :** Vous devez fournir un fichier `README.md` avec des instructions claires pour installer et exécuter votre application. Vous y mettrez également le lien vers la vidéo de démonstration de votre application (voir les modalités de remises). 
 
 ## 4. Grille d'évaluation
 
@@ -100,7 +103,8 @@ Si vous codez 50% des fonctionnalités mais que la qualité de votre code est pa
 
 - Le projet doit être fait en groupe de 2 ou 3, ou exceptionnellement seul.
 - Le projet doit être remis sur votre git assigné au plus tard la veille de l’examen du Q1, sur la branche principale du git (pas une autre branche). Le professeur prendra la dernière version disponible sur cette branche.
-- Pour obtenir votre repository git, indiquez votre nom d’utilisateur GitHub sur le document partagé avant le 20/11/2024 : https://annuel2.framapad.org/p/groupes-web2-ab3w?lang=fr
+- A cette même date, vous réaliserez une vidéo (une par groupe) qui explique explicitement ce qui a été fait dans le projet et ce qui n'a pas été fait. Cette vidéo doit montrer une démonstration complète de votre application (un peu comme la vidéo présentée ici). Vous devez également expliquer les grandes lignes de votre code et les choix de conception que vous avez faits. La vidéo doit être déposée sur un service de partage de vidéos (YouTube, Google Drive, etc.). Le lien vers la vidéo doit être inclus dans le README.md de votre projet.
+- **Pour obtenir votre repository git, indiquez votre nom d’utilisateur GitHub sur le document partagé avant le 20/11/2024 : https://annuel2.framapad.org/p/groupes-web2-ab3w?lang=fr**
 - Votre projet devra respecter scrupuleusement le design montré dans la vidéo (y compris les différentes animations et le responsive design)
 - L’examen de Q1 sera individuel et sera composé de questions sur papier et/ou de modifications à apporter sur votre code.
 - Pour rappel, si vous n’obtenez pas au moins 8/20 à l'examen, la note est dite absorbante et devient la note de l'UE, indépendamment de la note obtenu pour le projet en tant que tel.
@@ -109,4 +113,5 @@ Si vous codez 50% des fonctionnalités mais que la qualité de votre code est pa
 
 - Si vous n’obtenez pas au moins 10/20 au Q1, vous pouvez repasser l’examen au Q3. Celui-ci sera basé sur les mêmes modalités qu’au Q1.
 - Votre projet doit être remis au plus tard la veille de l'examen de Q3, toujours sur le git qui vous a été assigné. Si vous n'êtes plus dans le même groupe, vous pouvez me demander de vous assigner un nouveau git.
+- A cete même date, vous réaliserez une vidéo (une par groupe) qui explique explicitement ce qui a été fait dans le projet et ce qui n'a pas été fait. Cette vidéo doit montrer une démonstration complète de votre application (un peu comme la vidéo présentée ici). Vous devez également expliquer les grandes lignes de votre code et les choix de conception que vous avez faits. La vidéo doit être déposée sur un service de partage de vidéos (YouTube, Google Drive, etc.). Le lien vers la vidéo doit être inclus dans le README.md de votre projet.
 - Pour rappel et tout comme au Q1, si vous n’obtenez pas au moins 8/20 à l'examen, la note est dite absorbante et devient la note de l'UE, indépendamment de la note obtenu pour le projet en tant que tel.
