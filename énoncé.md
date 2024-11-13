@@ -23,8 +23,9 @@ Les utilisateurs sont hardcodés (il n'y a pas de gestion d'utilisateurs dans l'
 | Marc Bernard| marc@fastdeliver.com   | driver123    | Livreur       |
 | Lucas Dubois| lucas@fastdeliver.com  | driver123    | Livreur       |
 
-Une vidéo présentant toute l'application est disponible ici : [https://youtu.be/myXpqbOJ8iw](https://youtu.be/myXpqbOJ8iw)
-Une démonstration du côté responsive de l'application est disponible ici : [https://youtu.be/pRsYRhqcxAM](https://youtu.be/pRsYRhqcxAM) 
+Une vidéo présentant toute l'application est disponible ici : [https://youtu.be/myXpqbOJ8iw](https://youtu.be/myXpqbOJ8iw).
+
+Une démonstration du côté responsive de l'application est disponible ici : [https://youtu.be/pRsYRhqcxAM](https://youtu.be/pRsYRhqcxAM).
 
 ## 2. **Structure et Style**
 
