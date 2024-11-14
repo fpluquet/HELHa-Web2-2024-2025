@@ -34,7 +34,7 @@ Une démonstration du côté responsive de l'application est disponible ici : [h
 
 ## 3. **Contraintes techniques**
 
-- **Base de données :** Les informations sur les livraisons, les clients, et les livreurs sont stockées dans une base de données SQLite via une API sur mesure. Vous ne pouvez pas utiliser d'ORM. Les données doivent être cohérentes et bien structurées pour permettre une gestion efficace des livraisons.
+- **Base de données :** Les informations sur les livraisons, les clients, et les livreurs sont stockées dans une base de données SQLite via une API sur mesure. Vous ne pouvez pas utiliser d'ORM. Les données doivent être cohérentes et bien structurées pour permettre une gestion efficace des livraisons. Vous ne devez avoir qu'une seule base de données pour l'ensemble de l'application (mais vous aurez plusieurs tables).
 - **Données JSON :** Les données sont échangées en format JSON entre le client web et le serveur. Les requêtes HTTP doivent être correctement gérées et les réponses doivent être bien formatées. Structurez vos données de manière logique et cohérente pour faciliter la manipulation côté client. Ne renvoyez pas de données inutiles ou sensibles. Par exemple, un livreur ne doit pas pouvoir accéder aux informations d'un autre livreur.
 - **API :** L'application web communique avec une API pour récupérer et mettre à jour les données. Cette API sera écrite en NodeJS et Express. L'API doit être bien documentée et respecter les normes REST.
 - **Unité de serveur :** Vous ne devez développer qu'un seul serveur, qui servira à la fois l'API et les fichiers statiques (HTML, CSS, JS). Vous pouvez utiliser des middlewares pour gérer les routes et les requêtes.
