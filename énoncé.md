@@ -14,7 +14,7 @@ Le projet **FastDeliver** est une application web de gestion de livraison qui pe
 
 Un administrateur pourra gérer les livraisons (et éditer les informations du client liées à cette livraison). Les livreurs pourront consulter les livraisons qui leur sont attribuées, éditer le statut (la marquer comme livrée ou signaler les problèmes éventuels). Les clients uniquement pourront suivre l'état de leur colis en entrant un numéro de suivi.
 
-Les utilisateurs sont hardcodés (il n'y a pas de gestion d'utilisateurs dans l'application) et les mots de passe sont stockés sous forme hashée (avec du sel) dans la base de données (faites un script JS côté serveur qui crée les utilisateurs dans la base de données). Voici les utilisateurs disponibles :
+Les utilisateurs sont hardcodés (il n'y a pas de gestion d'utilisateurs dans l'application) et les mots de passe sont stockés sous forme hashée (avec du sel) dans la base de données (faites un script JS côté serveur qui crée les utilisateurs dans la base de données depuis leur mot de passe en clair (le hashage sera fait par le script)). Voici les utilisateurs disponibles :
 
 | Nom         | Email                  | Mot de passe | Rôle          |
 |-------------|------------------------|--------------|---------------|
